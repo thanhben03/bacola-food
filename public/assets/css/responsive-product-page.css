@@ -1,0 +1,320 @@
+@media(max-width:64rem) {
+    header.sticky-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+@media(max-width:64rem) {
+    .single .single-content .product-type-simple form.cart {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 9999;
+        background: #fff;
+        margin-bottom: 0;
+        padding: 15px;
+        -webkit-box-shadow: 0 -2px 5px rgb(0 0 0 / 7%);
+        box-shadow: 0 -2px 5px rgb(0 0 0 / 7%);
+        justify-content: space-between;
+    }
+
+    .single .woocommerce-variation-add-to-cart {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 9999;
+        background: #fff;
+        margin-bottom: 0;
+        padding: 15px;
+        -webkit-box-shadow: 0 -2px 5px rgb(0 0 0 / 7%);
+        box-shadow: 0 -2px 5px rgb(0 0 0 / 7%);
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+
+:root {
+    --color-primary: #233a95;
+}
+
+:root {
+    --color-secondary: #2bbef9;
+}
+
+
+
+
+
+
+
+.site-header .header-top {
+    background-color: ;
+    color: #3e445a;
+}
+
+.header-main.header-wrapper,
+.site-header .header-nav {
+    background-color: #ffffff;
+}
+
+.site-header .header-top .site-menu .menu .menu-item:hover>a {
+    color: #2bbef9;
+}
+
+.site-location a {
+    background-color: #ffffff;
+    color: #3e445a;
+    border-color: #d9d9e9;
+}
+
+.site-location a:hover {
+    background-color: #ffffff;
+    color: #3e445a;
+    border-color: #d9d9e9;
+}
+
+.site-location a .current-location {
+    color: #233a95;
+}
+
+.site-location a .current-location:hover {
+    color: #233a95;
+}
+
+.site-location a:after {
+    color: #233a95;
+}
+
+.site-header .header-main .header-search .dgwt-wcas-search-form input[type="search"] {
+    background-color: #f3f4f7;
+    color: #202435;
+    border-color: #f3f4f7;
+}
+
+.dgwt-wcas-sf-wrapp:after {
+    color: #202435;
+}
+
+.site-header .header-buttons .header-login.bordered .button-icon {
+    background-color: #ffffff;
+    border-color: #e2e4ec;
+
+}
+
+.site-header .header-buttons .header-login.bordered .button-icon i {
+    color: #3e445a;
+}
+
+.header-cart .cart-price bdi {
+    color: #202435;
+}
+
+@media screen and (min-width: 48rem) {
+    .site-header .header-buttons .bordered.header-cart .button-icon {
+        background-color: #fff1ee;
+        border-color: #fff1ee;
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    .site-header .header-buttons .bordered.header-cart .button-icon i {
+        color: #ea2b0f;
+    }
+}
+
+.site-header .header-buttons .cart-count-icon {
+    background-color: #ea2b0f;
+    color: #ffffff;
+}
+
+.menu-list li.link-parent>a {
+    color: #3e445a;
+}
+
+.menu-list li.link-parent>a:hover {
+    color: #2bbef9;
+}
+
+.site-header .all-categories .dropdown-categories {
+    background-color: #ffffff;
+    border-color: #e4e5ee;
+}
+
+.site-header .all-categories>a {
+    background-color: #2bbef9;
+    color: #ffffff;
+}
+
+.site-header .all-categories>a i,
+.site-header .all-categories>a:after {
+    color: #ffffff;
+}
+
+.site-header .all-categories>a .description {
+    background-color: ;
+    border-color: #ffffff;
+    color: ;
+}
+
+.site-header .primary-menu .menu>.menu-item>a,
+.site-header .primary-menu .menu .sub-menu .menu-item>a {
+    color: #3e445a;
+}
+
+.site-header .primary-menu .menu>.menu-item>a:hover,
+.site-header .primary-menu .menu .sub-menu .menu-item:hover>a,
+.site-header .primary-menu .menu>.menu-item:hover>a {
+    color: #2bbef9;
+}
+
+.site-footer .footer-iconboxes {
+    background-color: #f7f8fd;
+}
+
+.site-footer .footer-iconboxes .iconbox {
+    color: #000000;
+}
+
+.site-footer .footer-iconboxes .iconbox:hover {
+    color: #000000;
+}
+
+.site-footer .footer-widgets {
+    background-color: #f7f8fd;
+}
+
+.klbfooterwidget ul a {
+    color: #71778e
+}
+
+.klbfooterwidget ul a:hover {
+    color: #71778e
+}
+
+.klbfooterwidget h4.widget-title {
+    color: #202435
+}
+
+.klbfooterwidget h4.widget-title:hover {
+    color: #202435
+}
+
+.site-footer .footer-contacts .site-phone .phone-icon {
+    background-color: ;
+    color: #202435
+}
+
+.site-footer .footer-contacts .site-phone .entry-title,
+.site-footer .footer-contacts .site-mobile-app .app-content .entry-title {
+    color: #202435
+}
+
+.site-footer .footer-contacts .site-phone .entry-title:hover,
+.site-footer .footer-contacts .site-mobile-app .app-content .entry-title:hover {
+    color:
+}
+
+.site-footer .footer-contacts .site-phone span,
+.site-footer .footer-contacts .site-mobile-app .app-content span {
+    color: #202435
+}
+
+.site-footer .footer-contacts .site-phone span:hover,
+.site-footer .footer-contacts .site-mobile-app .app-content span:hover {
+    color:
+}
+
+.site-social ul a {
+    background-color: #ffffff;
+    color: #233a95
+}
+
+.site-footer .footer-contacts {
+    background-color: #ffffff;
+}
+
+.site-footer .footer-bottom {
+    background-color: #ffffff;
+}
+
+.site-copyright,
+.site-footer .footer-bottom .footer-menu li a {
+    color: #9b9bb4
+}
+
+.site-copyright:hover,
+.site-footer .footer-bottom .footer-menu li a:hover {
+    color: #9b9bb4
+}
+
+.site-footer .footer-subscribe {
+    background-color: ;
+    color:
+}
+
+.site-footer .footer-subscribe .entry-subtitle:hover,
+.site-footer .footer-subscribe .entry-title:hover,
+.site-footer .footer-subscribe .entry-teaser p:hover,
+.site-footer .footer-subscribe .form-wrapper:hover {
+    color:
+}
+
+
+.site-header .header-mobile-nav .menu-item a span {
+    color:
+}
+
+.site-header .header-mobile-nav .menu-item a span:hover {
+    color:
+}
+
+.site-header .header-mobile-nav .menu-item a i {
+    color:
+}
+
+.site-header .header-mobile-nav .menu-item a i:hover {
+    color:
+}
+
+.site-header .header-mobile-nav {
+    background-color: ;
+}
+
+.site-header .primary-menu .menu>.menu-item.current-menu-item>a {
+    color: #2bbef9;
+}
+
+.site-header .primary-menu .menu>.menu-item.current-menu-item>a,
+.site-header .primary-menu .menu>.menu-item:hover>a {
+    background-color: #f0faff;
+}
+
+.site-canvas .canvas-menu .menu .menu-item a {
+    color: ;
+}
+
+.site-canvas .canvas-menu .menu .menu-item.active>a {
+    color: ;
+}
+
+.site-canvas .canvas-menu .menu .menu-item+.menu-item,
+.site-canvas .canvas-menu {
+    border-color: ;
+}
+
+.site-canvas .canvas-footer .site-copyright {
+    color: ;
+}
+
+.site-canvas .canvas-title .entry-title {
+    color: ;
+}
